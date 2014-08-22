@@ -35,7 +35,6 @@ Using this filter in the code is equivalent to the query in the custom grid  and
             operator: '!=',
             value: currentProject
         });
-        
         filters = filters.or({
             property: 'Requirement',
             operator: '=',
