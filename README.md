@@ -29,7 +29,7 @@ Expected result: both DE1 and DE2 are returned.
 A CUSTOM APP WITH WSAPI STORE IS ALSO AFFECTED:
 
 Using this filter in the code is equivalent to the query in the custom grid  and produces the same result
-
+```
  var filters = Ext.create('Rally.data.QueryFilter', {
             property: 'Requirement.Project.ObjectID',
             operator: '!=',
@@ -41,7 +41,7 @@ Using this filter in the code is equivalent to the query in the custom grid  and
             value: null  
         });
         filters.toString();
-        
+ ```       
 See wsapiStore/App.js
 
 A CUSTOM APP WITH CUSTOM STORE THAT STITCHES RESULTS TOGETHER WORKS:
